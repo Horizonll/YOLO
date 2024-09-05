@@ -2,7 +2,6 @@ from ultralytics import YOLO
 import time, os
 
 model = YOLO("yolov8n.engine")
-
 start_time = time.time()
 frame_count = 0
 
@@ -18,3 +17,5 @@ while True:
             print(f"FPS: {fps:.2f}")
             start_time = end_time
             frame_count = 0
+    if KeyboardInterrupt:
+        break
