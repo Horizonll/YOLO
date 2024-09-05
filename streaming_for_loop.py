@@ -2,9 +2,9 @@ import cv2
 from ultralytics import YOLO
 import time
 
-model = YOLO("yolov8x.engine")
+model = YOLO("yolov8n.pt")
 video_path = "256s.mp4"
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(video_path)
 cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc("M", "J", "P", "G"))
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
