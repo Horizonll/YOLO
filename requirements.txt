@@ -1,4 +1,4 @@
-torch
+# torch
 ultralytics
 onnx
 onnxruntime-gpu
