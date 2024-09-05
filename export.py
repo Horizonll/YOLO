@@ -1,4 +1,4 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
-model.export(format="engine", int8=True, dynamic=True)
+model = YOLO("yolov8n-seg.pt")
+model.export(format="engine", half=True)

@@ -39,5 +39,5 @@ cap.release()
 cv2.destroyAllWindows()
 print(f"推理时间：{(end_time - start_time):.2f}s")
 """
-pt 111s
+pt 52s
 """
