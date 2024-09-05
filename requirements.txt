@@ -1,0 +1,5 @@
+torch
+ultralytics
+onnx
+onnxruntime-gpu
+tensorrt
