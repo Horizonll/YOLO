@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import time
 
 start_time = time.time()
-model = YOLO("yolov8n-seg.pt")
+model = YOLO("yolo11n.pt")
 results = model.predict("256s.mp4", save=True, stream=True)
 for result in results:
     pass
